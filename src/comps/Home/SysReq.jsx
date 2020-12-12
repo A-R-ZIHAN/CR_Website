@@ -28,7 +28,7 @@ function SysReq(props) {
         
         <tr>
         <th style={{border:"1px solid"}}>{props.fifth}</th>
-        <td>{props.fifth}</td>
+        <td>{props.fifthName}</td>
         </tr>
         
       </table>
