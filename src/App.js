@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React,{useEffect} from 'react';
 import { Route,Switch } from 'react-router-dom';
 import About from './comps/About/About';
 import Home from './comps/Home/Home';
@@ -7,7 +7,14 @@ import Navbar from './comps/Navbar/Navbar';
 import GameUpdates from './comps/GameUpdates/GameUpdates';
 import Footer from './comps/Footer/Footer';
 import Error from './comps/Error';
+import ReactGa from 'react-ga';
+
 function App() {
+  useEffect(() => {
+    ReactGa.initialize('G-EQ2LXP8NY2')
+
+    ReactGa.pageview('/')
+  }, [])
   return (
     <>
     <Navbar/> {/**THis is the navbar */}
