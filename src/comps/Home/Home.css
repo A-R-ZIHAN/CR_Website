@@ -1,0 +1,48 @@
+
+/* Animated Game Logo  */
+.gameLogoText{
+  border: 1px solid red;
+  text-align: center;
+  padding: 5%;
+  margin: 5%;
+  background-color: black;
+  color: white;
+}
+.gameLogoText>h1{
+  font-size: 150px;
+  
+}
+#leftText{
+  animation-name: gameLogoAnimationLeftText;
+  animation-duration: 2s;
+}
+#rightText{
+  animation-name: gameLogoAnimationRightText;
+  animation-duration: 2s;
+}
+
+
+@keyframes gameLogoAnimationLeftText{
+  0% {margin-left: -100%;}
+  100% {margin-left: 0%;}
+}
+@keyframes gameLogoAnimationRightText{
+  0% {margin-right: -100%;}
+  100% {margin-right: 0%;}
+}
+
+@media only screen and (max-width: 910px) {
+#leftText,#rightText{
+  font-size: 100px;
+}
+}
+@media only screen and (max-width: 630px) {
+#leftText,#rightText{
+  font-size: 80px;
+}
+}
+@media only screen and (max-width: 503px) {
+#leftText,#rightText{
+  font-size: 70px;
+}
+}

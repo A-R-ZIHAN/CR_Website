@@ -1,6 +1,7 @@
 import React from 'react';
 import GameUpdatesCardImageLeft from './GameUpdatesCardImageLeft';
 import GameUpdatesCardImageRight from './GameUpdatesCardImageRight';
+import "./GameUpdates.css";
 
 const GameUpdates = ()=>{
 return(

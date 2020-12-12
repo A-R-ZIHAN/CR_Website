@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SysReq from './SysReq';
-
+import "./Home.css";
 
 
 // So this is the homepage

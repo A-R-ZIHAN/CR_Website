@@ -2,10 +2,10 @@
 import React from 'react';
 import { Route,Switch } from 'react-router-dom';
 import About from './comps/About/About';
-import Home from './comps/Home';
-import Navbar from './comps/Navbar';
-import GameUpdates from './comps/GameUpdates';
-import Footer from './comps/Footer';
+import Home from './comps/Home/Home';
+import Navbar from './comps/Navbar/Navbar';
+import GameUpdates from './comps/GameUpdates/GameUpdates';
+import Footer from './comps/Footer/Footer';
 
 function App() {
   return (
