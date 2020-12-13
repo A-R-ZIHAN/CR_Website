@@ -38,11 +38,11 @@
 }
 @media only screen and (max-width: 630px) {
 #leftText,#rightText{
-  font-size: 80px;
+  font-size: 60px;
 }
 }
 @media only screen and (max-width: 503px) {
 #leftText,#rightText{
-  font-size: 70px;
+  font-size: 50px;
 }
 }
