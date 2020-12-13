@@ -20,6 +20,13 @@
   animation-name: gameLogoAnimationRightText;
   animation-duration: 2s;
 }
+@font-face{
+  src: url(./azonix/Azonix.otf);
+  font-family: Azonix;
+}
+#leftText,#rightText{
+  font-family: Azonix;
+}
 
 
 @keyframes gameLogoAnimationLeftText{
