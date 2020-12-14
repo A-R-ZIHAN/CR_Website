@@ -5,7 +5,7 @@ function Card(props) {
   return (
     <div id="card" className={props.className}>
       <div>
-        <img style={{textAlign:"center"}} src={props.profile} id="profileCard" width="30%"  alt=""/> <br/>
+        <img style={{textAlign:"center"}} src={props.profile} id="profileCard" width="30%"  alt="Image of the developers of the game, Country Recalls"/> <br/>
        <h3>{props.name}</h3> <br/>
         <p >{props.text}</p>
       </div>

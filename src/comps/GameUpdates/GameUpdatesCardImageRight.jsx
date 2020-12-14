@@ -13,7 +13,7 @@ function GameUpdatesCardImageRight(props) {
 
 
     <div id="imgDivGameUpdates">
-      <img width="100%" height="50%"  src={props.image} alt=""/>
+      <img width="100%" height="50%"  src={props.image} alt="New upcoming game, Country Recalls"/>
     </div>
 
 
