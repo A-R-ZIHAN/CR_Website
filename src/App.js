@@ -11,7 +11,7 @@ import ReactGa from 'react-ga';
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize('G-EQ2LXP8NY2')
+    ReactGa.initialize('G-BV3HME337S')
 
     ReactGa.pageview('/')
   }, [])
