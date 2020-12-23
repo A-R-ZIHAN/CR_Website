@@ -1,15 +1,25 @@
 
 /* Animated Game Logo  */
 .gameLogoText{
-  border: 1px solid red;
+
   text-align: center;
   padding: 5%;
-  margin: 5%;
-  background-color: black;
+  margin: 0%;
+  width: 100%;
+  background-image:url('https://res.cloudinary.com/imageszihand/image/upload/v1608735623/BG_r68o2a.png');
+  background-repeat: no-repeat;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  background-size: cover;
   color: white;
 }
 .gameLogoText>h1{
   font-size: 150px;
+  
+}
+.gameLogoText>h3{
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
   
 }
 #leftText{

@@ -16,7 +16,7 @@ return(
       <h1 id="leftText">COUNTRY</h1>
       <h1 id="rightText">RECALLS</h1>
     </div>
-
+    <br/> <br/>
     <h1 style={{width:"100%",textAlign:"center"}}>Minimum System Requirements</h1>
     <SysReq 
     first="Operating System" 
