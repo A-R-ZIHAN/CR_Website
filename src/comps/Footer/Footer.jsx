@@ -23,7 +23,7 @@ function Footer() {
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2020 Cliffhanger Games
+            © 2020 Huddloper Games
             </div>
           </div>
         </footer>
