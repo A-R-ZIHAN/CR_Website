@@ -15,7 +15,7 @@ const Navbar = ()=>{
 <div id='navbar'>
 <nav>
     <div className="nav-wrapper " style={{backgroundColor:"black"}}>
-      <NavLink to="/"  className="brand-logo right navbar-links">H<span style={{color:"orange"}}>G</span></NavLink>
+      <NavLink to="/"  className="brand-logo right navbar-links">H<span style={{color:"orange"}}>L</span></NavLink>
       
       <ul id="" className="navbarLinks">
         <li><NavLink exact activeClassName="activeRoute" className="navbar-links" to="/">Home</NavLink></li>
